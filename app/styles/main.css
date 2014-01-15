@@ -2,28 +2,69 @@ body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+    padding: 0 10%;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+#main-header{
+    position: relative;
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+#logo-div{
+    background-image: url('/images/spirit_breaker.png');
+    width: 100px;
+    height: 135px; 
 }
 
-.browsehappy {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+#tag-line{
+    font-size: 1.3em;
+    right: 0;
+    top: 25%;
+    position: absolute;
+    width: 425px;
+    text-align: right;
+}
+
+#nav-header{
+    margin-top: 2%;
+}
+
+/*Change made to the class inherit from bootstrap */
+#main-header .navbar-collapse{
+    padding-left: 0;
+}
+
+/*Change made to the class inherit from bootstrap */
+#main-footer .navbar-collapse{
+    padding-left: 0;
+}
+
+#featured-section{
+    width: 60%;
+    text-align: justify;
+    padding-right: 50px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+}
+
+#aside-list{
+    width: 35%;
+    float: right;
+}
+
+#aside-list article{
+    font-size: 1em;
+    padding: 1%;    
+    margin-bottom: 25px;
+}
+
+
+@media screen and (min-width: 729px) { 
+  
+ 
+}
+
+
+@media screen and (min-width: 480px) { 
+  
+ 
 }
