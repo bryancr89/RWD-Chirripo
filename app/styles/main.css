@@ -1,7 +1,4 @@
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
     padding: 0 10%;
 }
 
@@ -24,18 +21,18 @@ body {
     text-align: right;
 }
 
-#nav-header{
+#nav-header {
     margin-top: 2%;
 }
 
 /*Change made to the class inherit from bootstrap */
-#main-header .navbar-collapse{
+.main-nav .navbar-collapse{
     padding-left: 0;
+
 }
 
-/*Change made to the class inherit from bootstrap */
-#main-footer .navbar-collapse{
-    padding-left: 0;
+.main-nav .navbar-default .navbar-nav > li > a:hover {
+    background: #e7e7e7;
 }
 
 #featured-section{
@@ -56,12 +53,68 @@ body {
     float: right;
 }
 
-#aside-list article{
+#aside-list header {
+    font-size: 1.2em;
+}
+
+#aside-list p {
+    text-align: justify;
+}
+
+#aside-list article {
     font-size: 1em;
     padding: 1%;    
     margin-bottom: 25px;
 }
 
+#aside-list header, .latest-news header, #about-section > article header {
+    font-weight: bold;
+
+}
+
+.latest-news header {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+#about-section > article {
+    display: inline-block;
+    width: 49%;
+}
+
+#about-section > article header {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+#main-footer {
+    margin-top: 25px;
+}
+
+#nav-footer {
+    font-size: 0.9em;
+    padding: 1px;
+    background: rgb(219, 219, 219);
+    border-radius: 5px;
+}
+
+#nav-footer > ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+#nav-footer > ul > li {
+    display: inline-block;
+    padding: 0 25px;
+
+}
+
+#copyright {
+    text-align: center;
+    padding: 15px 0 10px 0;
+    opacity: 0.7;
+}
 
 @media screen and (min-width: 729px) { 
   
