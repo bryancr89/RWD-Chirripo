@@ -88,7 +88,7 @@ body {
     margin-bottom: 25px;
 }
 
-#aside-list header, .latest-news header, #about-section > article header {
+#aside-list header, .latest-news header, #about-section > article header, #featured-section > header {
     font-weight: bold;
 
 }
@@ -102,6 +102,7 @@ body {
     display: inline-block;
     width: 49%;
     text-align: justify;
+    padding-right: 10px;
 }
 
 #about-section > article header {
