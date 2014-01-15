@@ -135,6 +135,30 @@ body {
 
 @media screen and (max-width: 729px) {
 
+    #main-header {
+        text-align: right;
+    }
+
+    #tag-line {
+        position: initial;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    #aside-list {
+        float: none;
+        width: 100%;
+        display: inline-flex;
+    }
+
+    #featured-section{
+        width: 100%;
+    }
+
+    #about-section > article {
+        display: initials;
+        width: 100%;
+    }
 }
 
 
