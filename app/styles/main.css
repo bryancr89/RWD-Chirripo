@@ -52,7 +52,11 @@ body {
     background: #e7e7e7;
 }
 
-#featured-section{
+#dropdown-menu {
+    display: none;
+}
+
+#featured-section {
     width: 60%;
     text-align: justify;
     padding-right: 50px;
@@ -134,6 +138,17 @@ body {
 }
 
 @media screen and (max-width: 729px) {
+
+    #nav-header ul {
+        display: none;
+    }
+
+    #dropdown-menu {
+        display: block;
+        width: 100%;
+        padding: 5px;
+        color: rgb(94, 94, 94);
+    }
 
     #main-header {
         text-align: right;
